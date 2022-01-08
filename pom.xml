@@ -13,9 +13,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>assignment</name>
 	<description>assignment for Spring Boot</description>
+	
 	<properties>
-		<java.version>11</java.version>
-	</properties>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+           <maven.compiler.source>1.8</maven.compiler.source>
+            <maven.compiler.target>1.8</maven.compiler.target>
+        </properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -81,7 +85,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.16.22</version>
+			
 
 		</dependency>
 
